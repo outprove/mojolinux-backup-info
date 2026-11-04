@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Privacy — Mojolinux Backup</title></head>
+<body><main>
+<h1>Privacy notice</h1>
+<p>Mojolinux Backup is a personal backup application operated by its owner. It uses Restic and rclone to store and retrieve encrypted backups in the owner's Google Drive.</p>
+<p>The app requests the Google Drive <code>drive.file</code> permission to create and manage files it uses. It uses that access to upload and retrieve encrypted repository objects and, when the operator manages backups, update or remove those objects. It does not request general access to all files in Google Drive.</p>
+<p>Restic encrypts backup data before upload. Google Drive stores the encrypted repository objects and associated service metadata. The operator stores authorization and recovery credentials in protected files and keeps a separate recovery copy.</p>
+<p>The operator does not sell Google user data or use it for advertising. Google processes the stored objects under its own policies.</p>
+<p>The owner can revoke access in Google Account permissions. Revocation prevents new Drive backups and restores until access is authorized again; removing the stored backup is a separate action.</p>
+<p>Contact the operator through the <a href="https://github.com/outprove">operator's GitHub profile</a>.</p>
+<p><a href="./">Back to the homepage</a></p>
+</main></body></html>
